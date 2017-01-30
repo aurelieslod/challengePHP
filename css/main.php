@@ -57,7 +57,29 @@ h1, h2, h3, h4{
   border : 1px solid lightgrey;
   color : grey;
 }
+/*------------------Page login-------------------------------*/
 
+#loginContain{
+  width : 500px;
+  height : 300px;
+  padding-top : 50px;
+  <!-- border : 1px solid black; -->
+}
+#loginContain form{
+  margin : auto;
+}
+#loginContain form input{
+  border-radius : 0;
+  height : 35px;
+  border : 1px solid lightgrey;
+
+}
+
+#containerPage{
+  background-image : url('../img/slide3.jpg');
+  background-size : cover;
+  height : 100%;
+}
 /*------------------Panneau de configuration-----------------*/
 
 #adminModif label{
